@@ -1,0 +1,19 @@
+*~
+*.pyc
+.idea/*
+*.egg-info/*
+*tmp*.py
+*tmp*
+*.*.backup
+**/__pycache__/
+**/results/
+**/results_*/
+**/template_icl/
+**/.ipynb_checkpoints/
+**/demo/
+.chainerui_commands
+*tmp_grigoris
+
+# personal testout files.
+personal.py
+
