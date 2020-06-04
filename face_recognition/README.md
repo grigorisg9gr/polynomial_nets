@@ -21,7 +21,7 @@ cp sample_config.py config.py
 vim config.py # edit dataset path etc..
 ```
 
-3. We give a training example below. Our experiments were conducted on the 8*2080ti GPU.
+3. Our experiments were conducted on the 8*2080ti GPU. The training script is like this:
 
 ```Shell
 CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7' python -u train_parall.py --network r50 --loss arcface --dataset retina > log_ms1mretina_ploynet50_arcface.txt  2>&1 
