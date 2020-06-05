@@ -37,7 +37,7 @@ bn4 = mx.sym.BatchNorm(data=conv3, fix_gamma=False, eps=2e-5, momentum=bn_mom, n
 ```
 5. Pre-trained models can be downloaded from [here](https://www.dropbox.com/sh/0kh42qinncf73q9/AAA9J2mAewa48P-xXsIPOAdia?dl=0).
 
-Results on [IJB-C](https://github.com/deepinsight/insightface/tree/master/Evaluation/IJB):
+6. Results on [IJB-C](https://github.com/deepinsight/insightface/tree/master/Evaluation/IJB):
 
 | Method    | TAR@FAR=1e-5 | TAR@FAR=1e-4 |
 | -------   | ------       | --------- | 
