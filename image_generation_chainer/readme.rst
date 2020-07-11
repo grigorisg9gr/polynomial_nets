@@ -12,7 +12,7 @@ Browsing the folders
 ====================
 The folder structure is the following:
 
-*    ``gen_models``: The folder for the generator models; this is the primary folder you should modify.
+*    ``gen_models``: The folder for the generator models; this is the primary folder with the polynomial generator(s).
 
 *    ``dis_models``: The folder for the discriminator models; do not modify the optional arguments, unless you know what you are doing.
 
@@ -32,7 +32,7 @@ Train the network
 
 To train the network, you can execute the following command::
 
-   python jobs/product_fc/train_mn.py --config jobs/product_fc/facepointcloud1m_recursive_gen_prod_linear_proddis.yml --label my_experiment
+   python jobs/pinet/train_mn_mnist.py --label my_experiment
 
 The yml file describes the modules/dataset to train on. The hyper-parameters are included
 in the yml, no need to hardcode them in the files. Probably, you should modify the path of 
@@ -57,7 +57,7 @@ Tested on a Linux machine with:
 
 The code is highly influenced by [1]_.
 
-Apart from Chainer, the code depends on Pyaml [2]_. 
+Apart from Chainer, the code depends on Pyaml [2]_ and [3]_ (for the evaluation). 
 
 
 References
@@ -66,4 +66,6 @@ References
 .. [1] https://github.com/grigorisg9gr/rocgan/
 
 .. [2] https://pypi.org/project/pyaml/
+
+.. [3] https://github.com/djsutherland/skl-groups
 
