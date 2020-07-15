@@ -14,13 +14,13 @@ models:
       dim_z: 128
       distribution: uniform
       out_ch: 1
-      power_poly: [1, 2, 3]
+      power_poly: [1, 3]
       activ_prod: 0
       add_h_poly: True
-      layer_d:  [128, 128, 128, 128, 256, 256, 256, 256, 128, 128, 64]
-      strides:  [2, 1, 2, 1, 2, 1, 2, 2, 1, 1]
-      paddings: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-      ksizes:   [4, 3, 4, 3, 4, 3, 4, 4, 3, 3]
+      layer_d:  [128, 128, 128, 256, 256, 256, 256, 256, 64]
+      strides:  [2, 2, 1, 2, 1, 2, 2, 1]
+      paddings: [1, 1, 1, 1, 1, 1, 1, 1]
+      ksizes:   [4, 4, 3, 4, 3, 4, 4, 3]
       use_bn: True
       use_act_zgl: False
       normalize_preinject: 0
@@ -33,7 +33,7 @@ models:
       fn: dis_models/snresnet_32.py
       name: SNResNetProjectionDiscriminator
       args:
-        ch: 100
+        ch: 80
         n_classes: 0
         sn: True
         ch_input: 1
@@ -44,7 +44,6 @@ dataset:
   dataset_name: MnistDb
   args:
     path: /vol/deform/grigoris/databases/fashion_mnist/
-    invert: False
     labels_suff: train_labels.npy
 
 
