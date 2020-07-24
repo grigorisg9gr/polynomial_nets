@@ -24,6 +24,8 @@ try:
     from skl_groups.divergences import KNNDivergenceEstimator
 except ImportError:
     pass
+# # even though NDB is imported, its evaluation was not used for this 
+# # project; it remains here for legacy mode.
 from evaluations.ndb import NDB
 
 # # define as globals since the trainer does not have a memory.

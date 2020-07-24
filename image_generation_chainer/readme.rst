@@ -27,6 +27,7 @@ The folder structure is the following:
 *    ``datasets``: Each file in the folder describes a parser for a dataset; normally you should not modify it for provided dataset(s).
 
 
+
 Train the network
 =================
 
@@ -34,9 +35,18 @@ To train the network, you can execute the following command::
 
    python jobs/pinet/train_mn_mnist.py --label my_experiment
 
-The yml file describes the modules/dataset to train on. The hyper-parameters are included
-in the yml, no need to hardcode them in the files. Probably, you should modify the path of 
-the dataset (in the yml, find the 'dataset:' part) to match the one in your local pc.
+The yml file describes the modules/dataset to train on. The default dataset used is 
+`Fashion-mnist <https://github.com/zalandoresearch/fashion-mnist>`_; other datasets can 
+be used by modifying the respective paths in the yml.
+
+The hyper-parameters are included in the yml, no need to hardcode them in the files. 
+Probably, you should modify the path of the dataset (in the yml, find the `dataset:` part) 
+to match the one in your local pc.
+
+The results are exported in the directory defined in `train_mn_mnist.py` (default `results_polynomial`). 
+The directory with the results includes folders named as [start_date][label]; inside each respective
+folder the pretrained weights and few indicative images are exported. 
+
 
 
 

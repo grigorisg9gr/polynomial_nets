@@ -36,7 +36,7 @@ def make_optimizer(model, comm, alpha=0.001, beta1=0.9, beta2=0.999, chmn=False,
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config_path', type=str, default='configs/pinet/fashionmnist_cnn_prodpoly_linear.yml')
+    parser.add_argument('--config_path', type=str, default='jobs/pinet/fashionmnist_cnn_prodpoly_linear.yml')
     parser.add_argument('--n_devices', type=int)
     parser.add_argument('--test', action='store_true', default=False)
     parser.add_argument('--communicator', type=str,
