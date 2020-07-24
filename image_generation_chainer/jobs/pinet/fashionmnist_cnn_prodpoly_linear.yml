@@ -26,7 +26,7 @@ models:
       normalize_preinject: 0
       add_h_injection: 0
       derivfc: 1
-      
+      order_out_poly: 2
 
 
   discriminator:
