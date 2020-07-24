@@ -2,10 +2,11 @@
 Π-nets: Deep Polynomial Neural Networks
 =======================================
 
-Implementation of the several experiments of the paper "**Π-nets: Deep Polynomial Neural Networks**".
+Official implementation of several experiments in the paper `"**Π-nets: Deep Polynomial Neural Networks**" <https://openaccess.thecvf.com/content_CVPR_2020/papers/Chrysos_P-nets_Deep_Polynomial_Neural_Networks_CVPR_2020_paper.pdf>`_ and its `extension <https://arxiv.org/abs/2006.13026>`_.
 
-Each folder contains a different experiment that was conducted for this work. Please follow the instructions 
-in the respective folder on how to run the experiments and reproduce the results.
+Each folder contains a different experiment. Please follow the instructions 
+in the respective folder on how to run the experiments and reproduce the results. 
+`This repository <https://github.com/grigorisg9gr/polynomial_nets>`_ contains implementations in `MXNet <https://mxnet.apache.org/>`_, `PyTorch <https://pytorch.org/>`_ and `Chainer <https://chainer.org/>`_.
 
 
 
@@ -13,9 +14,11 @@ Browsing the experiments
 ========================
 The folder structure is the following:
 
-*    ``image_generation_chainer``: It contains the code in Chainer for the generation experiments without activation functions.
-
 *    ``face_recognition``: The folder contains the code for the face verification and identification experiments.
+
+*    ``image_generation_chainer``: The folder contains the image generation experiments without activation functions.
+
+*    ``mesh_pi_nets``: The folder contains the code for mesh representation learning with polynomial networks.
 
 
 

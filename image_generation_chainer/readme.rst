@@ -2,9 +2,9 @@
 Π-nets: Deep Polynomial Neural Networks
 =======================================
 
-Chainer implementation of the CVPR'20 paper "**Π-nets: Deep Polynomial Neural Networks**".
+Chainer implementation of the image generation as described on the CVPR'20 paper "**Π-nets: Deep Polynomial Neural Networks**".
 
-Specifically, we include the code for the fully-connected experiment of product of polynomials.
+Specifically, we include the code for image generation on fashion images.
 
 
 

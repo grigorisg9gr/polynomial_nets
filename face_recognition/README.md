@@ -1,3 +1,5 @@
+Official Implementation of the experiments on discriminative tasks with polynomial networks as described in the CVPR'20 paper [Π-nets: Deep Polynomial Neural Networks](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chrysos_P-nets_Deep_Polynomial_Neural_Networks_CVPR_2020_paper.pdf) and its [extension](https://arxiv.org/abs/2006.13026).
+
 ### Model Training
 
 1. Download the training dataset [`MS1MV3-RetinaFace`](https://ibug.doc.ic.ac.uk/resources/lightweight-face-recognition-challenge-workshop/).
@@ -45,23 +47,10 @@ bn4 = mx.sym.BatchNorm(data=conv3, fix_gamma=False, eps=2e-5, momentum=bn_mom, n
 |Prodpoly-ResNet50   | 95.16 | 96.58     | 
 
 
-### Citation
+### Dependencies
+Requirements:
+- python 3.x
+- mxnet
+- opencv
 
-If you find this code useful in your research, please consider to cite the following related papers:
-
-```
-@inproceedings{chrysos2020pi,
-  title={$$\backslash$Pi-$ nets: Deep Polynomial Neural Networks},
-  author={Chrysos, Grigorios G and Moschoglou, Stylianos and Bouritsas, Giorgos and Deng, Jiankang and Panagakis, Yannis and Zafeiriou, Stefanos},
-  booktitle={CVPR},
-  year={2020}
-}
-
-@inproceedings{deng2019arcface,
-  title={Arcface: Additive angular margin loss for deep face recognition},
-  author={Deng, Jiankang and Guo, Jia and Xue, Niannan and Zafeiriou, Stefanos},
-  booktitle={CVPR},
-  year={2019}
-}
-```
 
