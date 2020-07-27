@@ -27,6 +27,7 @@ models:
       add_h_injection: 0
       derivfc: 1
       order_out_poly: 2
+      use_out_act: True
 
 
   discriminator:
