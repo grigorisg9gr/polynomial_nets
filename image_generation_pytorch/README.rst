@@ -54,8 +54,7 @@ The code was tested on a Linux machine and requires the following packages/versi
 
 Snippets of the code are borrowed by the official pytorch DCGAN implementation [1].
 
-The codes for the IS and FID scores are borrowed from [2] and [3], respectively. 
-
+The codes for the IS and FID scores are borrowed from [2] and [3], respectively. We should point out that the FID/IS scores that are mentioned in the paper may be slightly different to the ones calculated here since for the paper scores, after having extracted the best network, we run the official Tensorflow FID/IS scores implementations and report those, in order to be consistent throughout the whole set of experiments and frameworks (chainer, pytorch, etc.).
 
 References
 ==========
