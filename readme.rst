@@ -18,13 +18,13 @@ Browsing the experiments
 ========================
 The folder structure is the following:
 
-*    ``face_recognition``: The folder contains the code for the face verification and identification experiments.
+*    ``face_recognition``: The folder contains the code for the `face verification and identification experiments <https://github.com/grigorisg9gr/polynomial_nets/tree/master/face_recognition>`_.
 
-*    ``image_generation_chainer``: The folder contains the image generation experiment on Chainer; specifically the experiment without activation functions between the layers.
+*    ``image_generation_chainer``: The folder  contains the `image generation experiment on Chainer <https://github.com/grigorisg9gr/polynomial_nets/tree/master/image_generation_chainer>`_; specifically the experiment without activation functions between the layers.
 
-*    ``image_generation_pytorch``: The folder contains the image generation experiment on PyTorch; specifically the conversion of a DCGAN-like generator into a polynomial generator.
+*    ``image_generation_pytorch``: The folder contains the `image generation experiment on PyTorch <https://github.com/grigorisg9gr/polynomial_nets/tree/master/image_generation_pytorch>`_; specifically the conversion of a DCGAN-like generator into a polynomial generator.
 
-*    ``mesh_pi_nets``: The folder contains the code for mesh representation learning with polynomial networks.
+*    ``mesh_pi_nets``: The folder contains the code for `mesh representation learning <https://github.com/grigorisg9gr/polynomial_nets/tree/master/mesh_pi_nets>`_ with polynomial networks.
 
 
 
