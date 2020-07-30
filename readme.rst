@@ -20,7 +20,9 @@ The folder structure is the following:
 
 *    ``face_recognition``: The folder contains the code for the face verification and identification experiments.
 
-*    ``image_generation_chainer``: The folder contains the image generation experiments without activation functions.
+*    ``image_generation_chainer``: The folder contains the image generation experiment on Chainer; specifically the experiment without activation functions between the layers.
+
+*    ``image_generation_pytorch``: The folder contains the image generation experiment on PyTorch; specifically the conversion of a DCGAN-like generator into a polynomial generator.
 
 *    ``mesh_pi_nets``: The folder contains the code for mesh representation learning with polynomial networks.
 
