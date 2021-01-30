@@ -27,6 +27,29 @@ The folder structure is the following:
 *    ``mesh_pi_nets``: The folder contains the code for `mesh representation learning <https://github.com/grigorisg9gr/polynomial_nets/tree/master/mesh_pi_nets>`_ with polynomial networks.
 
 
+More information on Π-nets
+==========================
+
+
+A one-minute pitch of the paper is uploaded `here <https://www.youtube.com/watch?v=5HmFSoU2cOw>`_. We describe there what generation results can be obtained even without activation functions between the layers of the generator. 
+
+Results
+=======
+
+The evaluation in the paper [1]_ suggests that Π-nets can improve state-of-the-art methods. Below, we visualize results in image generation and errors in mesh representation learning.
+
+
+.. image:: figures/prodpoly_generation_ffhq.pdf
+  :width: 400
+  :alt: Generation results by Π-nets when trained on FFHQ.
+
+
+.. image:: figures/dfaust.png
+  :width: 400
+  :alt: Per vertex reconstruction error on an exemplary human body mesh.
+
+Color coded results of the per vertex reconstruction error on an exemplary human body mesh. From left to right: ground truth mesh, first order SpiralGNN, second, third and fourth order base polynomial in Π-nets.
+
 
 
 Citing
