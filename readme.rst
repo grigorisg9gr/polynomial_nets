@@ -50,7 +50,7 @@ The evaluation in the paper [1]_ suggests that Π-nets can improve state-of-the-
   :width: 400
   :alt: Generation results by Π-nets when trained on FFHQ.
 
-The image above shows synthesizes faces when using a generator that is a product of polynomials.
+The image above shows synthesizes faces. The generator is a Π-net, and more specifically a product of polynomials.
 
 
 .. image:: figures/dfaust.png
