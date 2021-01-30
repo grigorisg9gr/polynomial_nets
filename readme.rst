@@ -35,7 +35,7 @@ A one-minute pitch of the paper is uploaded `here <https://www.youtube.com/watch
 
 Π-nets do not rely on a single architecture, but enable diverse architectures to be built; the architecture is defined by the form of the resursive formula that constructs it. For instance, we visualize below two different Π-net architectures. 
 
-.. image:: figures/model_intro.png
+.. image:: figures/model_intro_.png
   :width: 200
   :alt: Different architectures enables by Π-nets.
 
