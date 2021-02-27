@@ -6,7 +6,7 @@
 	:target: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 	:alt: License
 
-Official implementation of several experiments in the paper `"**Π-nets: Deep Polynomial Neural Networks**" <https://openaccess.thecvf.com/content_CVPR_2020/papers/Chrysos_P-nets_Deep_Polynomial_Neural_Networks_CVPR_2020_paper.pdf>`_ and its `extension <https://arxiv.org/abs/2006.13026>`_.
+Official implementation of several experiments in the paper `"**Π-nets: Deep Polynomial Neural Networks**" <https://openaccess.thecvf.com/content_CVPR_2020/papers/Chrysos_P-nets_Deep_Polynomial_Neural_Networks_CVPR_2020_paper.pdf>`_ and its `extension <https://ieeexplore.ieee.org/document/9353253>`_ (also in <https://arxiv.org/abs/2006.13026>`_).
 
 Each folder contains a different experiment. Please follow the instructions 
 in the respective folder on how to run the experiments and reproduce the results. 
@@ -63,7 +63,7 @@ Color coded results of the per vertex reconstruction error on an exemplary human
 
 Citing
 ======
-If you use this code, please cite [1]_:
+If you use this code, please cite [1]_ or (and) [2]_:
 
 *BibTeX*:: 
 
@@ -74,10 +74,21 @@ If you use this code, please cite [1]_:
   booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2020}
   }
+
+@ARTICLE{9353253,
+  author={Chrysos, Grigorios and Moschoglou, Stylianos and Bouritsas, Giorgos and Deng, Jiankang and Panagakis, Yannis and Zafeiriou, Stefanos},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Deep Polynomial Neural Networks}, 
+  year={2021},
+  pages={1-1},
+  doi={10.1109/TPAMI.2021.3058891}}
+
   
 References
 ==========
 
 .. [1] Grigorios G. Chrysos, Stylianos Moschoglou, Giorgos Bouritsas, Yannis Panagakis, Jiankang Deng and Stefanos Zafeiriou, **Π-nets: Deep Polynomial Neural Networks**, *Conference on Computer Vision and Pattern Recognition (CVPR)*, 2020.
+
+.. [2] Grigorios G. Chrysos, Stylianos Moschoglou, Giorgos Bouritsas, Jiankang Deng, Yannis Panagakis and Stefanos Zafeiriou, **Deep Polynomial Neural Networks**, *IEEE Transactions on Pattern Analysis and Machine Intelligence*, 2021.
 
 
