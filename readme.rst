@@ -6,6 +6,15 @@
 	:target: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 	:alt: License
 
+.. image:: https://img.shields.io/badge/Preprint-ArXiv-blue.svg
+	:target: https://arxiv.org/abs/2006.13026
+	:alt: ArXiv
+
+.. image:: https://img.shields.io/badge/BlogPost-site-red.svg
+	:target: https://grigorisg9gr.github.io/polynomial-nets/
+	:alt: Blogpost
+
+
 Official implementation of several experiments in the paper `"**Π-nets: Deep Polynomial Neural Networks**" <https://openaccess.thecvf.com/content_CVPR_2020/papers/Chrysos_P-nets_Deep_Polynomial_Neural_Networks_CVPR_2020_paper.pdf>`_ and its `extension <https://ieeexplore.ieee.org/document/9353253>`_ (also available `here <https://arxiv.org/abs/2006.13026>`_ ).
 
 Each folder contains a different experiment. Please follow the instructions 
