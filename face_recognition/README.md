@@ -37,7 +37,7 @@ conv3 = Conv(data=act2, num_filter=num_filter, kernel=(1, 1), stride=(1,1), pad=
              no_bias=True, workspace=workspace, name=name + '_conv3')
 bn4 = mx.sym.BatchNorm(data=conv3, fix_gamma=False, eps=2e-5, momentum=bn_mom, name=name + '_bn4')
 ```
-5. Pre-trained models can be downloaded from [here](https://www.dropbox.com/sh/vf3fou3furz1llw/AADKVQztBZVeyD4XpvU32Z19a?dl=0).
+5. Pre-trained models can be downloaded from [here](https://drive.google.com/file/d/1Y9250PK5aK5oxyrvWVqcQsVdfqjtFL53/view?usp=sharing).
 
 6. Results on [IJB-C](https://github.com/deepinsight/insightface/tree/master/Evaluation/IJB):
 
