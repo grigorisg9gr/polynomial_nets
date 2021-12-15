@@ -42,7 +42,7 @@ More information on Π-nets
 
 A one-minute pitch of the paper is uploaded `here <https://www.youtube.com/watch?v=5HmFSoU2cOw>`_. We describe there what generation results can be obtained even without activation functions between the layers of the generator. 
 
-Π-nets do not rely on a single architecture, but enable diverse architectures to be built; the architecture is defined by the form of the resursive formula that constructs it. For instance, we visualize below two different Π-net architectures. 
+Π-nets do not rely on a single architecture, but enable diverse architectures to be built; the architecture is defined by the form of the recursive formula that constructs it. For instance, we visualize below two different Π-net architectures. 
 
 .. image:: figures/model_intro_.png
   :width: 200
