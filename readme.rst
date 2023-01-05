@@ -81,6 +81,7 @@ If you use this code, please cite [1]_ or (and) [2]_:
   title={$\Pi-$nets: Deep Polynomial Neural Networks},
   author={Chrysos, Grigorios and Moschoglou, Stylianos and Bouritsas, Giorgos and Panagakis, Yannis and Deng, Jiankang and Zafeiriou, Stefanos},
   booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={7325--7335},
   year={2020}
   }
 
@@ -91,8 +92,10 @@ If you use this code, please cite [1]_ or (and) [2]_:
   author={Chrysos, Grigorios and Moschoglou, Stylianos and Bouritsas, Giorgos and Deng, Jiankang and Panagakis, Yannis and Zafeiriou, Stefanos},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
   title={Deep Polynomial Neural Networks}, 
+  volume={44},
+  number={8},
+  pages={4021--4034},
   year={2021},
-  pages={1-1},
   doi={10.1109/TPAMI.2021.3058891}}
 
   
