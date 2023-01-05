@@ -10,12 +10,15 @@ Our polynomial can also provide non-linearity...
 
 <div align=center>
 <img src="https://github.com/grigorisg9gr/polynomial_nets/blob/master/no_relu/Top1.png" width="40%"/>
+  <img src="https://github.com/grigorisg9gr/polynomial_nets/blob/master/no_relu/Top5.png" width="40%"/>
 </div>
 
 ## Implemenation Details
 
 Please follow [mmclassification](https://github.com/open-mmlab/mmclassification) to set up the training environment.
-We slightly modifiy [ResNet](https://github.com/open-mmlab/mmclassification/blob/master/mmcls/models/backbones/resnet.py) for different experiments.
+
+We slightly modifiy [ResNet](https://github.com/open-mmlab/mmclassification/blob/master/mmcls/models/backbones/resnet.py) for different [experiments](https://github.com/grigorisg9gr/polynomial_nets/tree/master/no_relu/backbones).
+
 All other training details following the standard [configuration](https://github.com/open-mmlab/mmclassification/blob/master/configs/resnet/resnet18_8xb32_in1k.py).
 
 ## Results 
