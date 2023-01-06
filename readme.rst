@@ -35,6 +35,10 @@ The folder structure is the following:
 
 *    ``mesh_pi_nets``: The folder contains the code for `mesh representation learning <https://github.com/grigorisg9gr/polynomial_nets/tree/master/mesh_pi_nets>`_ with polynomial networks.
 
+*    ``classification-NO-activation-function``: The folder contains the code for Π-nets without activation functions on classification (e.g. ImageNet). 
+
+
+
 
 More information on Π-nets
 ==========================

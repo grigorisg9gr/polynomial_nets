@@ -4,8 +4,8 @@
 
 ## Abstract
 
-ReLu provides non-linearity for deep neural network.
-Our polynomial can also provide non-linearity...
+Typically, neural networks required activation functions to be able to approximate effectively complex distributions. ReLU-nets have been popular, e.g., ResNets. However, in the proposed polynomial nets, there is no strict requirement for activation functions as the Π-nets already include nonlinear interactions between the input elements. In fact, you could capture high-order correlations between the input elements without any activation functions, which is what we focus on in this experiment. In particular, we illustrate how Π-nets can learn classification even in the demanding ImageNet without activation functions. We hope that our code can inspire further experimentation with networks that do not require activation functions and can find alternative ways to express nonlinear relationships between the input elements. 
+
 
 
 <div align=center>
